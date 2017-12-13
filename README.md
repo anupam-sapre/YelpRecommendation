@@ -1,6 +1,6 @@
 # YelpRecommendation
 
-Yelp Recommendation will be used with Mongo DB 
+Yelp Recommendation will be used with MongoDB 
 You can follow the instructions below to install it.
 https://docs.mongodb.com/v3.4/installation/#tutorials
 
@@ -17,7 +17,10 @@ mongoimport  --db Yelp --collection reviews --file ~/DataMining/Project/review.j
 
 mongoimport  --db Yelp --collection tips --file ~/DataMining/Project/tip.json
 
-For content based recommendation please run  ContentBasedRecommendation.ipynb
+Then, please run target ipynb files via jupyter notebook for review. 
+
+For example:
+For content based recommendation please run  ContentBasedRecommendation.ipynb.
 
 
 
