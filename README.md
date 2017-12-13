@@ -17,9 +17,7 @@ mongoimport  --db Yelp --collection reviews --file ~/DataMining/Project/review.j
 
 mongoimport  --db Yelp --collection tips --file ~/DataMining/Project/tip.json
 
-For running the ContentBasedRecommendation system run following command
-
-python contentBasedRecommendation.py
+For content based recommendation please run  ContentBasedRecommendation.ipynb
 
 
 
