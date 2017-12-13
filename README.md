@@ -9,13 +9,13 @@ https://www.yelp.com/dataset/download
 
 After this run following commands to insert json files into mongodb
 
-mongoimport  --db testYelp --collection user --file ~/DataMining/Project/user.json
+mongoimport  --db Yelp --collection user --file ~/DataMining/Project/user.json
 
-mongoimport  --db testYelp --collection business --file ~/DataMining/Project/business.json
+mongoimport  --db Yelp --collection business --file ~/DataMining/Project/business.json
 
-mongoimport  --db testYelp --collection reviews --file ~/DataMining/Project/review.json
+mongoimport  --db Yelp --collection reviews --file ~/DataMining/Project/review.json
 
-mongoimport  --db testYelp --collection tips --file ~/DataMining/Project/tip.json
+mongoimport  --db Yelp --collection tips --file ~/DataMining/Project/tip.json
 
 For running the ContentBasedRecommendation system run following command
 
